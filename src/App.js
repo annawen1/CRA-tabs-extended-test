@@ -1,24 +1,17 @@
-import logo from './logo.svg';
+import DDSTabsExtended from '@carbon/ibmdotcom-web-components/es/components-react/tabs-extended/tabs-extended';
+import DDSTab from '@carbon/ibmdotcom-web-components/es/components-react/tabs-extended/tab';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <DDSTabsExtended orientation="vertical">
+    <DDSTab label="First Tab">
+      <p>First tab paragraph text</p>
+    </DDSTab>
+    <DDSTab label="Second Tab">
+      <p>Second tab paragraph text</p>
+    </DDSTab>
+  </DDSTabsExtended>
   );
 }
 
