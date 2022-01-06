@@ -1,4 +1,5 @@
 {
+  "homepage": "https://annawen1.github.io/CRA-tabs-extended-test/",
   "name": "example-app",
   "version": "0.1.0",
   "private": true,
@@ -6,7 +7,7 @@
     "@carbon/colors": "^10.30.0",
     "@carbon/ibmdotcom-react": "^1.21.0",
     "@carbon/ibmdotcom-styles": "^1.21.0",
-    "@carbon/ibmdotcom-web-components": "latest",
+    "@carbon/ibmdotcom-web-components": "canary",
     "@carbon/icons-react": "~10.22.0",
     "@carbon/layout": "^10.29.0",
     "@carbon/pictograms-react": "^11.15.0",
@@ -20,10 +21,13 @@
     "carbon-icons": "^7.0.7",
     "crypto-js": "^4.1.1",
     "downshift": "^6.1.7",
+    "gh-pages": "^3.2.3",
     "html-react-parser": "^1.2.8",
     "i18next": "^20.5.0",
     "i18next-browser-languagedetector": "^6.1.2",
     "i18next-xhr-backend": "^3.2.2",
+    "lit-element": "^2.5.1",
+    "lit-html": "^1.4.1",
     "node-sass": "^6.0.1",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
@@ -40,7 +44,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
