@@ -5,17 +5,17 @@
     "main.js.map": "/CRA-tabs-extended-test/static/js/main.6f887c0f.chunk.js.map",
     "runtime-main.js": "/CRA-tabs-extended-test/static/js/runtime-main.282cd9c3.js",
     "runtime-main.js.map": "/CRA-tabs-extended-test/static/js/runtime-main.282cd9c3.js.map",
-    "static/js/2.a2cc0a28.chunk.js": "/CRA-tabs-extended-test/static/js/2.a2cc0a28.chunk.js",
-    "static/js/2.a2cc0a28.chunk.js.map": "/CRA-tabs-extended-test/static/js/2.a2cc0a28.chunk.js.map",
+    "static/js/2.abd76854.chunk.js": "/CRA-tabs-extended-test/static/js/2.abd76854.chunk.js",
+    "static/js/2.abd76854.chunk.js.map": "/CRA-tabs-extended-test/static/js/2.abd76854.chunk.js.map",
     "static/js/3.8bbfdcf4.chunk.js": "/CRA-tabs-extended-test/static/js/3.8bbfdcf4.chunk.js",
     "static/js/3.8bbfdcf4.chunk.js.map": "/CRA-tabs-extended-test/static/js/3.8bbfdcf4.chunk.js.map",
     "index.html": "/CRA-tabs-extended-test/index.html",
     "static/css/main.a617e044.chunk.css.map": "/CRA-tabs-extended-test/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.a2cc0a28.chunk.js.LICENSE.txt": "/CRA-tabs-extended-test/static/js/2.a2cc0a28.chunk.js.LICENSE.txt"
+    "static/js/2.abd76854.chunk.js.LICENSE.txt": "/CRA-tabs-extended-test/static/js/2.abd76854.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.282cd9c3.js",
-    "static/js/2.a2cc0a28.chunk.js",
+    "static/js/2.abd76854.chunk.js",
     "static/css/main.a617e044.chunk.css",
     "static/js/main.6f887c0f.chunk.js"
   ]
